@@ -1,0 +1,10 @@
+sm = 0
+
+while (True):
+    number = int(input('Enter number: '))
+    if number >= 0:
+        sm += number
+    else:
+        break
+
+print(f'Sum: {sm}')
