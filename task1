@@ -4,4 +4,4 @@ distance = 0;
 
 for i in range(time):
     distance += speed
-    print(f'Distance after {str(i)} hour
+    print(f'Distance after {str(i)} hours: '  + str(distance))
