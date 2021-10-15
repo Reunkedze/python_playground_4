@@ -1,0 +1,7 @@
+speed = int(input('Speed: '))
+time = int(input('Time: '))
+distance = 0;
+
+for i in range(time):
+    distance += speed
+    print(f'Distance after {str(i)} hour
